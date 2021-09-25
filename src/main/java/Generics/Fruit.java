@@ -15,5 +15,6 @@ public class Fruit {
         this.weight = weight;
 
 
+
     }
 }
