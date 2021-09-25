@@ -14,5 +14,6 @@ public class Fruit {
     public void setWeight(float weight) {
         this.weight = weight;
 
+
     }
 }
