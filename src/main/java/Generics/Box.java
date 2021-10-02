@@ -30,6 +30,7 @@ public class Box<F extends Fruit> {
         this.fruits = new ArrayList<>(Arrays.asList(fruits));
 
 
+
     }
 
 
