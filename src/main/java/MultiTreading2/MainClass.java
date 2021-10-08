@@ -7,7 +7,7 @@ public class MainClass {
     public static final int CARS_COUNT = 4;
     public static final CountDownLatch cdl = new CountDownLatch(CARS_COUNT);
     public static final CountDownLatch cdl2 = new CountDownLatch(CARS_COUNT);
-
+    public static final Semaphore smf = new Semaphore(CARS_COUNT / 2);
 
 
     public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class MainClass {
 
     }
 
-    public static void finish () {
+    public static void finish() {
         try {
             cdl2.await();
         } catch (InterruptedException e) {

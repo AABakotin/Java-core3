@@ -10,6 +10,7 @@ public class Race {
         return stages;
     }
 
+
     public Race(Stage... stages) {
         this.stages = new ArrayList<>(Arrays.asList(stages));
     }
