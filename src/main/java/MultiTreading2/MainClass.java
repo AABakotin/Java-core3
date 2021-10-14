@@ -24,6 +24,9 @@ public class MainClass {
         }
 
 
+
+
+
         start();
         System.out.println("ВАЖНОЕ ОБЪЯВЛЕНИЕ >>> Гонка началась!!!");
         finish();
