@@ -1,0 +1,12 @@
+ERROR 2021-10-14 17:36:44 [main] lessons6.Method (Method.java:48) - Throwing
+java.lang.RuntimeException: 4 not found
+	at lessons6.Method.copyArr(Method.java:48) [classes/:?]
+	at lessons6.Method.main(Method.java:32) [classes/:?]
+ERROR 2021-10-14 17:38:35 [main] lessons6.Method (Method.java:48) - Throwing
+java.lang.RuntimeException: 4 not found
+	at lessons6.Method.copyArr(Method.java:48) [classes/:?]
+	at lessons6.Method.main(Method.java:32) [classes/:?]
+ERROR 2021-10-14 17:39:15 [main] lessons6.Method (Method.java:39) - Throwing
+java.lang.RuntimeException: 4 not found
+	at lessons6.Method.copyArr(Method.java:39) [classes/:?]
+	at lessons6.Method.main(Method.java:28) [classes/:?]
