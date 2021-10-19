@@ -20,17 +20,14 @@ public class Method {
         int[] arr2 = {2, 2, 3, 5, 2, 3, 6, 9, 7};
 
 
-
-        System.out.println(fourOne(arr));
-        System.out.println(fourOne(arr1));
-        System.out.println(fourOne(arr2));
+        for (int[] ints : Arrays.asList(arr, arr1, arr2)) {
+            System.out.println(fourOne(ints));
+        }
         System.out.println("*********************************");
         System.out.println(Arrays.toString(copyArr(arr)));
         System.out.println(Arrays.toString(copyArr(arr1)));
         System.out.println(Arrays.toString(copyArr(arr2)));
         System.out.println("*********************************");
-
-
 
     }
 
